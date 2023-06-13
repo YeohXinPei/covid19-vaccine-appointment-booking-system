@@ -1,0 +1,117 @@
+/* style for welcome.php*/
+
+body{
+  background:rgb(188,217,233);
+  color: rgb(75, 74, 74);
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main {
+  margin-top: 20px;
+  margin-left: 50px; /* Same as the width of the sidenav */
+}
+
+.side2{
+  float: left;
+  padding: 20px 80px;
+}
+
+.img{
+  height: auto !important;
+  width: 100% !important;
+}
+
+.btn1{
+border: none;
+outline: none;
+height: 40px;
+width: 180px;
+background-color: rgb(188,89,82);
+color: white;
+border-radius: 4px;
+font-weight: bold;;
+}
+
+.btn1:hover{
+background: white;
+border: 1px solid;
+color: rgb(188,89,82);
+}
+
+
+/* style for navbar */
+
+.topnav {
+    background-color: rgb(60,182,75);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    position: right;
+  }
+
+  .topnav p {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 5px 18px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow-x: hidden;
+    padding-top: 14px;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  
+/* style for admin_page.php */
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 100px 30px;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 95%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: rgb(34, 33, 91);
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th, .styled-table td {
+  padding: 15px 15px;
+}
+
+.styled-table tbody tr {
+  background-color: rgb(245, 245, 245);
+  border-bottom: thin solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid rgb(34, 33, 91);
+}
+
+
+
+
+
+ 

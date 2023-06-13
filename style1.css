@@ -1,0 +1,52 @@
+/* style for index.php & index_admin.php */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(94, 94, 94);
+}
+
+body{
+    background: rgb(34, 33, 91);
+}
+
+.title{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(60,182,75);;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+
+.row{
+    background: rgb(225,232,236);
+}
+
+.img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: auto !important;
+    width: 100% !important;
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 180px;
+    background-color: rgb(60,182,75);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;;
+}
+
+.btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: rgb(60,182,75);
+}
+
+
